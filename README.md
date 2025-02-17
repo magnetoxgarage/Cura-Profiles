@@ -20,6 +20,6 @@ They may not have proper constraints and the toolhead dimensions may not be corr
 ## Known Issues
 + ASA profiles seem to be broken. I'm not sure why yet.
 + The printer name is always MagnetoX #2 for me. Not sure why that is either.
-+ Cura log shows ``NameError: name 'skirt' is not defined`` due to the values for ``adhesion_type`` (Code [in MagnetoX.def.json]([url](https://github.com/magnetoxgarage/Cura-Profiles/blob/d16a877ba92a25e53f93f191fc5c56f3ea2a9b6c/cura/5.9/definitions/MagnetoX.def.json#L34-L38)))
++ Cura log shows ``NameError: name 'skirt' is not defined`` due to the values for ``adhesion_type`` (Code [in MagnetoX.def.json](https://github.com/magnetoxgarage/Cura-Profiles/blob/d16a877ba92a25e53f93f191fc5c56f3ea2a9b6c/cura/5.9/definitions/MagnetoX.def.json#L34-L38))
 
 Pull requests are welcome!
