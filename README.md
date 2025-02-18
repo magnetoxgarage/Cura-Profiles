@@ -20,6 +20,9 @@
 5.) 🛑 ℹ️ Check the start GCODE and verify it will work for your setup
 
 ## Known Issues
++ Orientation of coordinates and build plate do not match (will fix later)
++ Many filament settings have not been copied over
++ If using KAMP, start GCODE will need to be changed to EXTRUDER_TEMP and BED_TEMP
 + ASA profiles seem to be broken. I'm not sure why. The same seems to occur with Voron ASA profiles.
 
 Pull requests are welcome!
