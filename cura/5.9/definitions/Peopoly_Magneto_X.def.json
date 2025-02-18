@@ -10,7 +10,7 @@
         "file_formats": "text/x-gcode",
         "exclude_materials": [],
 	    "platform": "Magneto_X_platform.obj",
-        "platform_offset": [-10,0,0],
+        "platform_offset": [10,0,0],
         "platform_texture": "Magneto_X.png",
         "first_start_actions": [ "MachineSettingsAction" ],
         "has_machine_quality": true,
