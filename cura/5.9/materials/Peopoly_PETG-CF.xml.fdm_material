@@ -3,21 +3,16 @@
   version="1.3">
   <metadata>
     <name>
-      <brand>Peoply</brand>
+      <brand>Peopoly</brand>
       <material>PETG</material>
       <color>Black</color>
-      <label>Peoply PETG-CF</label>
+      <label>Peopoly Lancer PETG-CF</label>
     </name>
     <version>22</version>
     <GUID>b9917ac4-e053-49f0-bc81-b70658022cd4</GUID>
-    <color_code>#2161AF</color_code>
-    <description>Peopoly Lancer PETG-CF High Flow Filament, a state-of-the-art filament is designed
-      for those who demand the highest performance in 3D printing. Building upon the success of our
-      PLA-CF range, achieving over 70mm³/s flow rate on Magneto X. This PETG-CF filament combines
-      exceptional high-flow characteristics with the robust qualities of PETG. Ideal for projects
-      requiring superior temperature and chemical resistance, as well as enhanced impact strength.</description>
-    <adhesion_info>Has very good bed adhesion. Be careful if using directly on PEI as it can be
-      difficult to remove.</adhesion_info>
+    <color_code>#000000</color_code>
+    <description>Peopoly Lancer PETG-CF High Flow Filament, a state-of-the-art filament is designed for those who demand the highest performance in 3D printing. Building upon the success of our PLA-CF range, achieving over 70mm³/s flow rate on Magneto X. This PETG-CF filament combines exceptional high-flow characteristics with the robust qualities of PETG. Ideal for projects requiring superior temperature and chemical resistance, as well as enhanced impact strength.</description>
+    <adhesion_info>Has very good bed adhesion. Be careful if using directly on PEI as it can be difficult to remove.</adhesion_info>
   </metadata>
   <properties>
     <density>1.3</density>
@@ -37,9 +32,10 @@
     <setting key="end of print purge volume">0</setting>
     <setting key="end of filament purge volume">0</setting>
     <setting key="flush purge length">60</setting>
+    <setting key="material_flow">.9</setting>
     <setting key="maximum park duration">7200</setting>
     <setting key="no load move factor">0.93</setting>
-    <setting key="print temperature">270</setting>
+    <setting key="print temperature">300</setting>
     <setting key="standby temperature">140</setting>
     <setting key="heated bed temperature">80</setting>
     <setting key="build volume temperature">0</setting>
