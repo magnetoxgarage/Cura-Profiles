@@ -24,14 +24,16 @@
     },
     "overrides":
     {
-        "acceleration_enabled": { "default_value": true },
+        "acceleration_enabled": { "default_value": false },
         "acceleration_layer_0": { "value": "math.ceil(acceleration_print / 10)" },
         "acceleration_print": { "default_value": 5000 },
         "acceleration_roofing": { "value": "math.ceil(acceleration_topbottom * 3000 / 5000) " },
         "acceleration_support": { "value": "math.ceil(acceleration_print / 2)" },
         "acceleration_travel": { "value": "acceleration_print if magic_spiralize else min(math.ceil(acceleration_print * 7000 / 5000), round((machine_max_acceleration_x + machine_max_acceleration_y) / 2, -2))" },
         "acceleration_wall_0": { "value": "math.ceil(acceleration_wall * 3000 / 5000)" },
-        "adhesion_type": { "value": "'brim' if draft_shield_enabled else 'skirt'" },
+        "adhesion_type": {
+            "default_value": "skirt",
+            "value": "'brim' if draft_shield_enabled else 'skirt'" },
         "bridge_fan_speed_2": { "resolve": "max(cool_fan_speed, 50)" },
         "bridge_fan_speed_3": { "resolve": "max(cool_fan_speed, 20)" },
         "bridge_settings_enabled": { "default_value": true },
