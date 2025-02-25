@@ -11,7 +11,9 @@
 ## How to Use
 1.) Download/clone the project
 
-2.) On Windows, browse to: %APPDATA% (You can type into File Explorer or the Windows Run command)
+2.) On Windows, browse to: %APPDATA% (You can type into File Explorer or the Windows Run command).
+
+On Linux distros you will likely be able to use `~/.local/share/cura`
 
 3.) Paste the cura folder over the top of the cura folder that is already there.
 
