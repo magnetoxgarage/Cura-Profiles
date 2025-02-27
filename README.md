@@ -21,6 +21,11 @@ On Linux distros you will likely be able to use `~/.local/share/cura`
 
 5.) 🛑 ℹ️ Check the start GCODE and verify it will work for your setup
 
+### Recommended Extensions:
++ [Klipper Settings](https://marketplace.ultimaker.com/app/cura/plugins/JJGraphiX/KlipperSettingsPlugin)
++ [Moonraker Connection](https://marketplace.ultimaker.com/app/cura/plugins/emtrax/MoonrakerConnection)
++ Modify Cura to [support thumbnails in GCODE](https://docs.fluidd.xyz/features/thumbnails#cura-with-post-processing-script)
+
 ## Known Issues
 + Many filament settings have not been copied over
 + If using KAMP, start GCODE will need to be changed to EXTRUDER_TEMP and BED_TEMP
