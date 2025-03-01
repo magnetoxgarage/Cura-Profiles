@@ -11,7 +11,9 @@
 ## How to Use
 1.) Download/clone the project
 
-2.) On Windows, browse to: %APPDATA% (You can type into File Explorer or the Windows Run command)
+2.) On Windows, browse to: %APPDATA% (You can type into File Explorer or the Windows Run command).
+
+On Linux distros you will likely be able to use `~/.local/share/cura`
 
 3.) Paste the cura folder over the top of the cura folder that is already there.
 
@@ -19,9 +21,19 @@
 
 5.) 🛑 ℹ️ Check the start GCODE and verify it will work for your setup
 
+### Recommended Extensions:
++ [Klipper Settings](https://marketplace.ultimaker.com/app/cura/plugins/JJGraphiX/KlipperSettingsPlugin)
++ [Moonraker Connection](https://marketplace.ultimaker.com/app/cura/plugins/emtrax/MoonrakerConnection)
++ Modify Cura to [support thumbnails in GCODE](https://docs.fluidd.xyz/features/thumbnails#cura-with-post-processing-script)
+
 ## Known Issues
 + Many filament settings have not been copied over
 + If using KAMP, start GCODE will need to be changed to EXTRUDER_TEMP and BED_TEMP
++ Speeds are higher (in general) then Orca Slicer speeds
 + ASA profiles seem to be broken. I'm not sure why. The same seems to occur with Voron ASA profiles.
 
 Pull requests are welcome!
+
+## Sources for Data:
++ Peopoly Pull Request that was cancelled: https://github.com/SoftFever/OrcaSlicer/pull/5435/files
++ Voron pull request for Cura here: https://github.com/Ultimaker/Cura/pull/20023
