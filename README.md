@@ -35,5 +35,5 @@ On Linux distros you will likely be able to use `~/.local/share/cura`
 Pull requests are welcome!
 
 ## Sources for Data:
-+ Peopoly Pull Request that was cancelled: https://github.com/SoftFever/OrcaSlicer/pull/5435/files
++ Peopoly pull request for Orca Slicer that was cancelled: https://github.com/SoftFever/OrcaSlicer/pull/5435/files
 + Voron pull request for Cura here: https://github.com/Ultimaker/Cura/pull/20023 to utilize volumetric speeds
