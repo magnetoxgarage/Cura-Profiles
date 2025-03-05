@@ -87,6 +87,20 @@
         "machine_steps_per_mm_y": { "default_value": 1000 },
         "machine_steps_per_mm_z": { "default_value": 800 },
         "machine_width": { "default_value": 300 },
+        "material_bed_temperature":
+        {
+            "maximum_value": 130,
+            "maximum_value_warning": 125
+        },
+        "material_bed_temperature_layer_0":
+        {
+            "maximum_value": 130,
+            "maximum_value_warning": 125
+        },
+        "material_print_temperature": {
+            "maximum_value_warning": 325,
+            "minimum_value_warning": 180
+        },
         "meshfix_maximum_resolution": { "default_value": 0.01 },
         "min_infill_area": { "default_value": 5.0 },
         "minimum_polygon_circumference": { "default_value": 0.2 },
@@ -99,12 +113,12 @@
         "retraction_prime_speed":
         {
             "maximum_value_warning": 130,
-            "value": 25
+            "value": 60
         },
         "retraction_retract_speed": { "maximum_value_warning": 130 },
         "retraction_speed":
         {
-            "default_value": 25,
+            "default_value": 60,
             "maximum_value_warning": 130
         },
         "roofing_layer_count": { "value": 1 },
