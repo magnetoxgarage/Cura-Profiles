@@ -37,3 +37,4 @@ Pull requests are welcome!
 ## Sources for Data:
 + Peopoly pull request for Orca Slicer that was cancelled: https://github.com/SoftFever/OrcaSlicer/pull/5435/files
 + Voron pull request for Cura here: https://github.com/Ultimaker/Cura/pull/20023 to utilize volumetric speeds
++ Original Peopoly Magento X pull request for Orca Slicer: https://github.com/SoftFever/OrcaSlicer/pull/3944/files
