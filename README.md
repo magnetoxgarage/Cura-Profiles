@@ -28,7 +28,7 @@ On Linux distros you will likely be able to use `~/.local/share/cura`
 + Modify Cura to [support thumbnails in GCODE](https://docs.fluidd.xyz/features/thumbnails#cura-with-post-processing-script)
 
 ## Known Issues
-+ Utilizes volumetric speed calculations; they may not be quite accurate at this point in time and generally seem to be higher than Peopoly Orca Slicer default profiles
++ Utilizes volumetric speed calculations with a assumed volumetric flow. This needs to be adapted for all filaments
 + Many Peopoly-specific filament settings have not been copied over
 + If using KAMP, start GCODE will need to be changed to EXTRUDER_TEMP and BED_TEMP
 + ASA profiles seem to be broken. I'm not sure why. The same seems to occur with Voron ASA profiles on Voron printers.
