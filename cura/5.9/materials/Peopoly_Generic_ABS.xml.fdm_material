@@ -27,9 +27,11 @@
     <setting key="break speed">25</setting>
     <setting key="break temperature">85</setting>
     <setting key="flush purge length">60</setting>
-    <setting key="material_flow">.93</setting>
+    <setting key="material_flow">93</setting>
     <setting key="maximum park duration">7200</setting>
     <setting key="no load move factor">0.92</setting>
+
+    <!-- print settings-->
     <setting key="print temperature">270</setting>
     <setting key="standby temperature">130</setting>
     <setting key="heated bed temperature">90</setting>
@@ -38,82 +40,85 @@
     <setting key="surface energy">70</setting>
     <cura:setting key="cool_fan_speed_max">15</cura:setting>
     <cura:setting key="material_shrinkage_percentage">100</cura:setting>
+
     <machine>
       <machine_identifier manufacturer="Peopoly" product="Magneto X" />
-      <cura:setting key="cool_min_layer_time">3</cura:setting>
-      <cura:setting key="material_shrinkage_percentage">100</cura:setting>
-      <cura:setting key="material_shrinkage_percentage_z">100</cura:setting>
+      <cura:setting key="material_bed_temperature_layer_0">90</cura:setting>
+      <cura:setting key="material_print_temperature_layer_0">275</cura:setting>
+      <cura:setting key="material_final_print_temperature">270</cura:setting>
+      <cura:setting key="material_initial_print_temperature">275</cura:setting>
       <hotend id="Lancer Long Melt Zone 1.20mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
       <hotend id="Lancer Long Melt Zone 1.00mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
       <hotend id="Lancer Long Melt Zone 0.80mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
+        <setting key="_plugin__valve__0_1_0__max_flow">36</setting>
       </hotend>
       <hotend id="Lancer Long Melt Zone 0.60mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
       <hotend id="Lancer Long Melt Zone 0.40mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
       <hotend id="Lancer Standard Melt Zone 1.20mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
       <hotend id="Lancer Standard Melt Zone 1.00mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
       <hotend id="Lancer Standard Melt Zone 0.80mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
       <hotend id="Lancer Standard Melt Zone 0.60mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
       <hotend id="Lancer Standard Melt Zone 0.40mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
       <hotend id="Lancer Short Melt Zone 0.60mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
       <hotend id="Lancer Short Melt Zone 0.40mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">.8</setting>
         <setting key="print cooling">40</setting>
-        <cura:setting key="cool_fan_speed_max">80</cura:setting>
+        <cura:setting key="cool_min_layer_time">3</cura:setting>
       </hotend>
     </machine>
     <setting key="pressure release dwell time">25</setting>
