@@ -24,6 +24,7 @@ On Linux distros you will likely be able to use `~/.local/share/cura`
 ### Recommended Extensions:
 + [Klipper Settings](https://marketplace.ultimaker.com/app/cura/plugins/JJGraphiX/KlipperSettingsPlugin)
 + [Moonraker Connection](https://marketplace.ultimaker.com/app/cura/plugins/emtrax/MoonrakerConnection)
++ [Volumetric Flow limiter](https://marketplace.ultimaker.com/app/cura/plugins/friendly.ghost/valve)
 + Modify Cura to [support thumbnails in GCODE](https://docs.fluidd.xyz/features/thumbnails#cura-with-post-processing-script)
 
 ## Known Issues
