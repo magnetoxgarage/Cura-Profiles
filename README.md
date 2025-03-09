@@ -15,11 +15,13 @@
 
 On Linux distros you will likely be able to use `~/.local/share/cura`
 
-3.) Paste the cura folder over the top of the cura folder that is already there.
+3.) If you've installed these profiles before, delete the `cura/5.9/quality/peopoly_magnetox` folder and delete all files that begin with 'Peopoly' in the `cura/materials` folder.
 
-4.) Open Cura and add your Magneto X 
+4.) Paste the `cura` folder over the top of the `cura` folder that is already there.
 
-5.) 🛑 ℹ️ Check the start GCODE and verify it will work for your setup
+5.) Open Cura and add your Magneto X 
+
+6.) 🛑 ℹ️ Check the start GCODE and verify it will work for your setup
 
 ### Recommended Extensions:
 + [Klipper Settings](https://marketplace.ultimaker.com/app/cura/plugins/JJGraphiX/KlipperSettingsPlugin)
