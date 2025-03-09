@@ -24,7 +24,7 @@ On Linux distros you will likely be able to use `~/.local/share/cura`
 ### Recommended Extensions:
 + [Klipper Settings](https://marketplace.ultimaker.com/app/cura/plugins/JJGraphiX/KlipperSettingsPlugin)
 + [Moonraker Connection](https://marketplace.ultimaker.com/app/cura/plugins/emtrax/MoonrakerConnection)
-+ [Volumetric Flow limiter](https://marketplace.ultimaker.com/app/cura/plugins/friendly.ghost/valve)
++ [Valve, a volumetric Flow limiter](https://marketplace.ultimaker.com/app/cura/plugins/friendly.ghost/valve)
 + Modify Cura to [support thumbnails in GCODE](https://docs.fluidd.xyz/features/thumbnails#cura-with-post-processing-script)
 
 ## Known Issues
@@ -39,3 +39,4 @@ Pull requests are welcome!
 + Peopoly pull request for Orca Slicer that was cancelled: https://github.com/SoftFever/OrcaSlicer/pull/5435/files
 + Voron pull request for Cura here: https://github.com/Ultimaker/Cura/pull/20023 to utilize volumetric speeds
 + Original Peopoly Magento X pull request for Orca Slicer: https://github.com/SoftFever/OrcaSlicer/pull/3944/files
++ [Cura profiles and config documentation](https://support.ultimaker.com/s/article/1667552779530)
