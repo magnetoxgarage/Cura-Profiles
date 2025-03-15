@@ -42,3 +42,4 @@ Pull requests are welcome!
 + Voron pull request for Cura here: https://github.com/Ultimaker/Cura/pull/20023 to utilize volumetric speeds
 + Original Peopoly Magneto X pull request for Orca Slicer: https://github.com/SoftFever/OrcaSlicer/pull/3944/files
 + [Cura profiles and config documentation](https://support.ultimaker.com/s/article/1667552779530)
++ [Steps per mm](https://discord.com/channels/1158578009121501267/1167524846410936460/1177129600069943306)
