@@ -43,3 +43,4 @@ Pull requests are welcome!
 + Original Peopoly Magneto X pull request for Orca Slicer: https://github.com/SoftFever/OrcaSlicer/pull/3944/files
 + [Cura profiles and config documentation](https://support.ultimaker.com/s/article/1667552779530)
 + [Steps per mm](https://discord.com/channels/1158578009121501267/1167524846410936460/1177129600069943306)
++ [Reference Table of Setting Term Differences](https://github.com/ra100/curaToSlic3rProfile/blob/master/Conversion.md)
