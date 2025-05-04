@@ -23,10 +23,11 @@ On Linux distros you will likely be able to use `~/.local/share/cura`
 
 6.) 🛑 ℹ️ Check the start GCODE and verify it will work for your setup
 
-### Recommended Extensions:
+### Recommended Plugins:
 + [Klipper Settings](https://marketplace.ultimaker.com/app/cura/plugins/JJGraphiX/KlipperSettingsPlugin)
 + [Moonraker Connection](https://marketplace.ultimaker.com/app/cura/plugins/emtrax/MoonrakerConnection)
 + [Valve, a volumetric Flow limiter](https://marketplace.ultimaker.com/app/cura/plugins/friendly.ghost/valve)
++ [Settings Guide](https://marketplace.ultimaker.com/app/cura/plugins/Ghostkeeper/SettingsGuide2)
 + Modify Cura to [support thumbnails in GCODE](https://docs.fluidd.xyz/features/thumbnails#cura-with-post-processing-script)
 
 ## Known Issues
