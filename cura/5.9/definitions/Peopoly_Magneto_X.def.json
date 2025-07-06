@@ -74,7 +74,7 @@
         "machine_max_acceleration_x": { "default_value": 20000 },
         "machine_max_acceleration_y": { "default_value": 20000 },
         "machine_max_acceleration_z": { "default_value": 500 },
-        "machine_max_feedrate_e": { "default_value": 25 },
+        "machine_max_feedrate_e": { "default_value": 60 },
         "machine_max_feedrate_z": { "default_value": 12 },
         "machine_max_feedrate_x": { "value": 500 },
         "machine_max_feedrate_y": { "value": 500 },
